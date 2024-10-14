@@ -15,7 +15,7 @@ public class Ruleta
         
         do
         {
-            System.out.println("Cual es tu apuesta.");
+            System.out.println("¿Cual es tu apuesta?");
             System.out.println("Inserte rojo, negro, numero");    
             do
             {
@@ -41,7 +41,7 @@ public class Ruleta
             {
                 bolita = (int) (Math.random() * 100) ;
             }while(bolita > 36);
-            System.out.println("La puta bolita de los cojones ha caido en el " + bolita + ".");
+            System.out.println("La bolita de los cojones ha caido en el " + bolita + ".");
 
             switch (apuesta) 
             {
@@ -49,7 +49,7 @@ public class Ruleta
                     payout = 2;
                     if(bolita % 2 == 0 && bolita != 0)
                         {
-                            System.out.println("Ha tocado rojo, enhorabuena tu premio es de " + payout*dinerin + " $.");
+                            System.out.println("Ha tocado rojo, enhorabuena tu premio es de " + payout*dinerin + "$.");
                         }
                         else
                             System.out.println("jajaja perdiste");
