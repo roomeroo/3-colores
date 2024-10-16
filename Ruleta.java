@@ -17,7 +17,7 @@ public class Ruleta {
         do {
             System.out.println("¿Cual es tu apuesta?");
             System.out.println(
-                    "Inserte " + consoleColors.RED + "rojo" + consoleColors.RESET + "," + consoleColors.BLACK + "negro"
+                    "Inserte " + consoleColors.RED + "rojo" + consoleColors.RESET + ", " + consoleColors.BLACK + "negro"
                             + consoleColors.RESET + " o " + consoleColors.GREEN + "numero" + consoleColors.RESET + ".");
             do {
                 apuesta = System.console().readLine();
